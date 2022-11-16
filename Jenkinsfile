@@ -32,7 +32,7 @@
 pipeline {
     agent any
     stages {
-        stage ('Build') {
+        stage ('Build') { hi
             steps {
                 sh 'mvn -Dmaven.test.failure.ignore=true install' 
             }
